@@ -240,6 +240,10 @@ class MsWordDocumentBackend(DeclarativeDocumentBackend):
         if numid == 0:
             numid = None
 
+        # TODO here we handle lists separately before headings, which 
+        # results in numbered headings part of a multilevel list not 
+        # being recognised as headings
+
         # Handle lists
         if numid is not None and ilevel is not None:
             self.add_listitem(
