@@ -1,0 +1,212 @@
+{
+  
+  "schema_name": "DoclingDocument",
+  "version": "1.0.0",
+  "name": "unit_test_headers_numbered_sections",
+  "origin": {
+    "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "binary_hash": 17237745888955067924,
+    "filename": "unit_test_headers_numbered_sections.docx"
+  },
+  "furniture": {
+    "self_ref": "#/furniture",
+    "children": [],
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/groups/0"
+      }
+    ],
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [
+    {
+      "self_ref": "#/groups/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/0"
+        }
+      ],
+      "name": "header-0",
+      "label": "section"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "$ref": "#/texts/1"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/3"
+        },
+        {
+          "$ref": "#/texts/4"
+        },
+        {
+          "$ref": "#/texts/5"
+        },
+        {
+          "$ref": "#/texts/6"
+        }
+      ],
+      "name": "list",
+      "label": "list"
+    }
+  ],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/groups/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/1"
+        },
+        {
+          "$ref": "#/texts/7"
+        }
+      ],
+      "label": "section_header",
+      "prov": [],
+      "orig": "1. A Numbered L1 Heading",
+      "text": "1. A Numbered L1 Heading",
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/1",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/2"
+        },
+        {
+          "$ref": "#/groups/1"
+        }
+      ],
+      "label": "section_header",
+      "prov": [],
+      "orig": "1.1 First Numbered L2 Heading",
+      "text": "1.1 First Numbered L2 Heading",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/texts/1"
+      },
+      "children": [],
+      "label": "paragraph",
+      "prov": [],
+      "orig": "1.1.1 A numbered paragraph in a document which has a bullet point list in it",
+      "text": "1.1.1 A numbered paragraph in a document which has a bullet point list in it"
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "label": "list_item",
+      "prov": [],
+      "orig": "First bullet in the para",
+      "text": "First bullet in the para",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "label": "list_item",
+      "prov": [],
+      "orig": "Second bullet in the para",
+      "text": "Second bullet in the para",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "label": "list_item",
+      "prov": [],
+      "orig": "The first bullet",
+      "text": "The first bullet",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/groups/1"
+      },
+      "children": [],
+      "label": "list_item",
+      "prov": [],
+      "orig": "The second bullet",
+      "text": "The second bullet",
+      "enumerated": false,
+      "marker": "-"
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "$ref": "#/texts/0"
+      },
+      "children": [
+        {
+          "$ref": "#/texts/8"
+        },
+        {
+          "$ref": "#/texts/9"
+        }
+      ],
+      "label": "section_header",
+      "prov": [],
+      "orig": "1.2 Second Numbered L2 Heading",
+      "text": "1.2 Second Numbered L2 Heading",
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/texts/7"
+      },
+      "children": [],
+      "label": "paragraph",
+      "prov": [],
+      "orig": "Some text",
+      "text": "Some text"
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "$ref": "#/texts/7"
+      },
+      "children": [],
+      "label": "paragraph",
+      "prov": [],
+      "orig": "",
+      "text": ""
+    }
+  ],
+  "pictures": [],
+  "tables": [],
+  "key_value_items": [],
+  "pages": {}
+}
