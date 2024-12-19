@@ -96,8 +96,8 @@
       ],
       "label": "section_header",
       "prov": [],
-      "orig": "1.1 First Numbered L2 Heading",
-      "text": "1.1 First Numbered L2 Heading",
+      "orig": "1.1. First Numbered L2 Heading",
+      "text": "1.1. First Numbered L2 Heading",
       "level": 2
     },
     {
@@ -108,8 +108,8 @@
       "children": [],
       "label": "paragraph",
       "prov": [],
-      "orig": "1.1.1 A numbered paragraph in a document which has a bullet point list in it",
-      "text": "1.1.1 A numbered paragraph in a document which has a bullet point list in it"
+      "orig": "1.1.1. A numbered paragraph in a document which has a bullet point list in it",
+      "text": "1.1.1. A numbered paragraph in a document which has a bullet point list in it"
     },
     {
       "self_ref": "#/texts/3",
@@ -178,8 +178,8 @@
       ],
       "label": "section_header",
       "prov": [],
-      "orig": "1.2 Second Numbered L2 Heading",
-      "text": "1.2 Second Numbered L2 Heading",
+      "orig": "1.2. Second Numbered L2 Heading",
+      "text": "1.2. Second Numbered L2 Heading",
       "level": 2
     },
     {

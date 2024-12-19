@@ -1,13 +1,13 @@
 item-0 at level 0: unspecified: group _root_
   item-1 at level 1: section: group header-0
     item-2 at level 2: section_header: 1. A Numbered L1 Heading
-      item-3 at level 3: section_header: 1.1 First Numbered L2 Heading
-        item-4 at level 4: paragraph: 1.1.1 A numbered paragraph in a document which has a bullet point list in it
+      item-3 at level 3: section_header: 1.1. First Numbered L2 Heading
+        item-4 at level 4: paragraph: 1.1.1. A numbered paragraph in a document which has a bullet point list in it
         item-5 at level 4: list: group list
           item-6 at level 5: list_item: First bullet in the para
           item-7 at level 5: list_item: Second bullet in the para
           item-8 at level 5: list_item: The first bullet
           item-9 at level 5: list_item: The second bullet
-      item-10 at level 3: section_header: 1.2 Second Numbered L2 Heading
+      item-10 at level 3: section_header: 1.2. Second Numbered L2 Heading
         item-11 at level 4: paragraph: Some text
         item-12 at level 4: paragraph: 
